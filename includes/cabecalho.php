@@ -32,8 +32,24 @@
 </head>
 <body>
     <!-- Header --> 
-    <header id="header" class="container-fluid">
-        <div class="row">
-            <a href="" class="col-sm" id="main-logo" title="Nome do projeto" name="Nome do projeto"></a>
-        </div>
+    <header id="header" class="container-fluid bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a href="/" class="navbar-brand" id="main-logo" title="Nome do projeto" name="Nome do projeto">TecBlog</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contato.php">Contato</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login.php">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
