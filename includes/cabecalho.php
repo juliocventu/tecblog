@@ -5,6 +5,7 @@
     include "../funcoes/configuracao.php";  // Inclusão do arquivo de configuração do nosso projeto
     include "../funcoes/conecta.php";       // Inclusão do arquivo de conexão com banco de dados
     include "../funcoes/funcoes.php";       // Inclusão do arquivo de funções do nosso projeto
+    require '../funcoes/phpmailer/class.phpmailer.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
